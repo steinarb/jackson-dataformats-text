@@ -20,6 +20,12 @@ configuration files as if there was implied nesting structure (by default using 
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <scope>provided</scope>
+    </dependency>
+
     <!-- for now let's consider databind somewhat optional... -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
